@@ -7,3 +7,4 @@ CONSOLE_ENABLE = no # Disable debug printing in firmware
 COMMAND_ENABLE = no # Disable debug commands
 BOOTMAGIC_ENABLE = no # Disable bootmagic (im not sure what it even is)
 AUDIO_ENABLE = no # Disable audio features (what even is the point in these?)
+CONVERT_TO=liatris
