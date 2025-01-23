@@ -1,4 +1,9 @@
 OLED_ENABLE = yes
-ENCODER_ENABLE = yes
-RGB_MATRIX_ENABLE = yes
-RGBLIGHT_ENABLE = yes
+TAP_DANCE_ENABLE = yes
+ENCODER_ENABLE = yes # Enables the use of one or more encoders
+RGB_MATRIX_ENABLE = yes # Enable per-key backlight
+RGBLIGHT_ENABLE = no # Disable standalone RGB underglow driver
+CONSOLE_ENABLE = no # Disable debug printing in firmware
+COMMAND_ENABLE = no # Disable debug commands
+BOOTMAGIC_ENABLE = no # Disable bootmagic (im not sure what it even is)
+AUDIO_ENABLE = no # Disable audio features (what even is the point in these?)
